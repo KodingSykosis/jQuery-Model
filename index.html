@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Model Demo</title>
+    <script type="text/javascript" src="//cdn.kodingsykosis.com/jQuery/1.9.1/jQuery.js"></script>
+    <script type="text/javascript" src="//cdn.kodingsykosis.com/jQueryUI/1.10.2/jquery-ui.js"></script>
+    <script type="text/javascript" src="scripts/jQuery.ui.Model.js"></script>
+    <script type="text/javascript" src="scripts/example.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="//cdn.kodingsykosis.com/jQueryUI/1.10.2/themes/base/jquery.ui.all.css" />
+    <link type="text/css" rel="stylesheet" href="css/jQuery.ui.Model.css" />
+</head>
+<body>
+    <ul class="ui-model" data-fieldName="Fubar">
+        <li class="ui-model-field" data-type="UUID">Id</li>
+        <li class="ui-model-field" data-type="String">Name</li>
+        <li class="ui-model-field" data-type="String">Description</li>
+        <li class="ui-model-field" data-type="Boolean">Active</li>
+        <li class="ui-model-field" data-type="DateTime">CreatedDate</li>
+        <li class="ui-model-field" data-type="DateTime">ModifiedDate</li>
+        <li class="ui-model-method" data-type="String" data-params='{ "format": { "type": "String", "optional": false }}'>ToString</li>
+    </ul>
+</body>
+</html>
